@@ -192,7 +192,7 @@ class NullPrinter(object):
 
 def start_thread(name, target, *args):
     thread = threading.Thread(name=name, target=target, args=args)
-    thread.setDaemon(True)
+    thread.daemon = True
     thread.start()
     return thread
 
