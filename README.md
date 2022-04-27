@@ -11,7 +11,7 @@ moot "Updating package repository" sudo apt-get update
 ```
 
 ```
-Updating package repository 🗸
+Updating package repository ✓
 ```
 
 If the command errors, the output will be shown:
@@ -41,7 +41,7 @@ moot
 ```
 
 ```
-Update and upgrade 🗸
+Update and upgrade ✓
 ```
 
 ## Install

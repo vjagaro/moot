@@ -128,7 +128,7 @@ class Printer(object):
         self.print(summary, end="", flush=True)
 
     def passed(self):
-        self.print(" 🗸")
+        self.print(" ✓")
 
     def failed(self):
         self.error_color()
